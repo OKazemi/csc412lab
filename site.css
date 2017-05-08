@@ -1,0 +1,178 @@
+body{
+    font-family: san-serif;
+    margin: 0px;
+    background: black;
+    
+    
+}
+ #headerImg {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    top: -15px;
+    left: 10px;
+    margin-bottom: -80px;
+}
+
+ h1{
+    padding-right:250px;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 0 0 30px;
+    text-align: center;
+    opacity: 0.9;
+    display: inline-block;
+    vertical-align: top;
+ }
+
+#header{
+    position: relative;
+    padding: 10px;
+    line-height: 70px;
+    width: 100%;
+    background: #292828;
+    border-bottom: 4px solid #9B2121;
+    box-shadow: 0 0 14px 8px black;
+}
+#nav{
+    z-index: 1;
+    position: relative;
+    list-style-type: none;
+    
+}
+#nav li{
+    margin-right: 20px;
+    float: left;
+    
+}
+#nav li a{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+  
+}
+#nav li a:hover:not(.active){
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+#nav li a.active{
+    color: red;
+    background-color: #292828;
+}
+#histContainer{
+    border: 4px solid #9B2121;
+    width: 820px;
+    height: 450px; 
+    background-color: #292828;
+    
+}
+#histContainer p{
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.8;
+    text-indent: 50px;
+    padding:10px;
+    position: relative;
+    
+}
+#history{
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+#twitter{
+    float:right;
+    border: 4px solid #9B2121;
+     
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.gallery{
+    margin: 10px;
+    border: 1px solid red;
+    float: left;
+    width: 255px;
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.roster {
+    font-family: sans-serif;
+    color: white;
+    text-align: center; 
+    border-bottom: 5px solid #9B2121;
+    width: 15%;
+    margin-left: 500px;
+    padding-top: 30px;
+}
+#rosterContainer{
+    margin-left: 20px;
+}
+.players {
+    list-style-type: none; 
+   
+}
+h3.position{
+    border-bottom: 5px solid #9B2121;
+    width: 15%; 
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+.play{
+    color: white;
+    font-family: sans-serif;
+}
+#fixtures{
+    margin-left: 420px;
+    margin-top: 40px;
+}
+#fixtures p{
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    text-align: center;
+    word-spacing: 200px;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 60px;
+    padding-top: 30px;
+}
